@@ -234,12 +234,9 @@ ul.nostyle i {
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
-}
-#main-slider .slider-inner h2 > span {
   color: #45aed6;
 }
-#main-slider .slider-inner .btn {
+ain-slider .slider-inner .btn {
   margin-top: 10px;
 }
 #main-slider .owl-prev,
@@ -284,33 +281,6 @@ ul.nostyle i {
   z-index: 999;
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
-}
-#cta {
-  padding: 50px 0;
-  background-color: #eeeeee;
-}
-#cta h2 {
-  margin-top: 0;
-}
-#cta .btn {
-  margin-top: 40px;
-}
-#cta2 {
-  background: #242a33 url(../images/cta2/cta2-bg.jpg) no-repeat 50% 50%;
-  background-size: cover;
-  color: #fff;
-  padding-top: 70px;
-}
-#cta2 .btn {
-  margin-top: 10px;
-}
-#cta2 h2 {
-  color: #fff;
-  font-size: 44px;
-  line-height: 1;
-}
-#cta2 h2 > span {
-  color: #45aed6;
 }
 #features {
   padding: 100px 0;
