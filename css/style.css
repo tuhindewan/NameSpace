@@ -155,14 +155,18 @@ ul.nostyle i {
   margin-top: 32px;
 }
 .navbar.navbar-default .navbar-brand {
-  height: auto;
+  margin-bottom: 50px;
   padding: 22px 15px 21px;
+}
+.navbar-nav>li {
+        font-size: 20px;
 }
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
     background: rgba(255, 255, 255, 0.9);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+
   }
   #main-menu.navbar-default .navbar-nav > li > a {
     padding-top: 40px;
@@ -211,7 +215,10 @@ ul.nostyle i {
     color: #45aed6;
     background-color: transparent;
   }
+
 }
+
+
 #main-slider {
   overflow: hidden;
 }
@@ -802,9 +809,46 @@ ain-slider .slider-inner .btn {
 @media only screen and (min-width: 768px) {
   #footer .social-icons {
     float: right;
+
   }
+ 
 }
 .form-control {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+@media only screen and (max-width: 768px) {
+   #main-slider .carousel-content h2{
+  font-size: 18px;
+}
+.btn.btn-primary {
+  background: #45aed6;
+  border-color: #2a95be;
+  margin-top: 18px;
+}
+
+.carousel-content{
+  
+  padding-left: 36px;
+}
+#meet-team .team-member h3{
+font-size: 17px;
+
+}
+.column-title {
+    margin-top: 28px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+}
+@media only screen and (max-width: 1000px){
+  .col-xs-6 {
+    width: 50%;
+    padding-top: 25px;
+}
+}
+
+
