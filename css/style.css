@@ -565,7 +565,7 @@ ain-slider .slider-inner .btn {
 #meet-team .team-member:hover {
   border-color: #45aed6;
 }
-#meet-team .team-member:hover .social-icons > li > a {
+#meet-team .team-member .social-icons > li > a:hover  {
   background: #45aed6;
 }
 #meet-team .social-icons {
@@ -851,4 +851,56 @@ font-size: 17px;
 }
 }
 
+@media only screen and (max-width: 480px){
+  #meet-team .social-icons > li {
+    display: inline-block;
+    
+    padding-left: 0px;
+    
+    
+}
+
+}
+@media only screen and (max-width: 450px){
+  #meet-team .social-icons > li {
+    display: inline-block;
+    
+    padding-left: 22px;
+    padding-top: 14px;
+}
+}
+@media only screen and (max-width: 350px){
+  #meet-team .social-icons > li {
+    display: inline-block;
+    
+    padding-left: 9px;
+    padding-top: 11px;
+}
+}
+
+@media only screen and (max-width: 320px){
+  #meet-team .social-icons > li > a {
+  display: block;
+  width: 22px;
+  height: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+  background: #222534;
+  border-radius: 3px;
+}
+}
+
+@media only screen and (max-width: 420px){
+  #meet-team .team-member p{
+    font-size: 9px;
+  }
+  #meet-team .team-member h3{
+    font-size: 9px;
+  }
+  #meet-team .team-member span {
+    font-size: 9px;
+  }
+
+}
 
